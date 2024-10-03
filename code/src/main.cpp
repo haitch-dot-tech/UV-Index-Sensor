@@ -16,7 +16,7 @@ UVSensor sensor;
 void setup()
 {
     tft.begin();
-    tft.setRotation(2);
+    tft.setRotation(0);
     tft.fillScreen(TFT_BLACK);
 
     tft.setTextColor(TFT_WHITE);
@@ -30,7 +30,7 @@ void setup()
 
     tft.setFreeFont(&FreeSansBold24pt7b);
 
-    sensor.init(29, 10, 3300, -18);
+    sensor.init(28, 10, 3300, 18);
 }
 
 void loop()
