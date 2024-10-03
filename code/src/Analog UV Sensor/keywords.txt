@@ -1,0 +1,6 @@
+UVSensor   KEYWORD1
+
+init       KEYWORD2
+update     KEYWORD2
+getIndex   KEYWORD2
+getVoltage KEYWORD2
